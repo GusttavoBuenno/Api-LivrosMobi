@@ -4,7 +4,7 @@ import livros from "./livrosroutes.js"
 
 const routes = (app) => {
     app.route('/').get((req, res) => {
-        res.status(200).send({titulo: "Api Node"})
+        res.status(200).send({Api: "Livraria"})
     })
 
     app.use(

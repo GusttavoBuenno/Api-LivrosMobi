@@ -1,5 +1,6 @@
 import livros from "../models/livros.js";
 
+
 class LivroController {
 
     static listarLivros = (req, res) => {
@@ -68,9 +69,6 @@ class LivroController {
     }
 
     }  
-    
-
-   
-
+       
 
 export default LivroController
